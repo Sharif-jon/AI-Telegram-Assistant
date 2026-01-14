@@ -6,6 +6,7 @@ from aiogram.filters import Command
 from aiogram.utils.keyboard import InlineKeyboardBuilder
 import google.generativeai as genai
 
+load_dotenv()
 
 # НАСТРОЙКИ (Вставляй ключи сюда)
 BOT_TOKEN = "TOKEN"
@@ -138,4 +139,5 @@ async def main():
 
 
 if __name__ == "__main__":
+
     asyncio.run(main())
